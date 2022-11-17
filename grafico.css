@@ -1,0 +1,80 @@
+/* começo grafico */
+.bloco-financa .grafico-1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 416px;
+  gap: 26px;
+}
+
+.bloco-financa .grafico h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #697A8D;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.bloco-financa .grafico h6 {
+  font-size: 25px;
+  font-weight: 100;
+  font-style: italic;
+  color: #566A7F;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.bloco-financa .grafico .imagens-grafico {
+  position: relative;
+}
+
+.bloco-financa .grafico .imagens-grafico p {
+  font-size: 38px;
+  font-weight: 100;
+  font-style: italic;
+  color: #566A7F;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.bloco-financa .grafico .imagens-grafico h5 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #697A8D;
+  position: absolute;
+  left: 0;
+  top: 90px;
+  text-align: center;
+  width: 100%;
+}
+
+.bloco-financa .grafico h5  {
+    font-size: 15px;
+    font-weight: 400;
+    color:#A1ACB8 ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bloco-financa .grafico h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #697A8D;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bloco-financa .grafico button {
+    width: 202px;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.80px;
+}
+/* fim grafico */

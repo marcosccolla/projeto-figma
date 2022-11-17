@@ -1,0 +1,97 @@
+/* inicio-financa */
+.bloco-financa {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 26px;    
+  margin-top: 26px;
+}
+
+.bloco-financa .financa {
+  background-color: white;
+  height: 416px;
+  border-radius: 8px;
+}
+
+.bloco-financa .parte-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.bloco-financa .parte-2 h3 {
+  color: #566a7f;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.bloco-financa .parte-2 h6 {
+  font-size: 15px;
+  color: #697a8d;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.bloco-financa .parte-2 img {
+  margin-top: 24px;
+}
+
+.bloco-financa .financa .parte-act {
+  display: flex;
+  gap: 80px;
+  margin-left: 20px;
+}
+.bloco-financa .parte-act .anct h5 {
+  color: #697a8d;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.bloco-financa .parte-act .anct p {
+  color: #566a7f;
+  font-weight: 100;
+  font-style: italic;
+}
+.bloco-financa .parte-act .next h5 {
+  color: #697a8d;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.bloco-financa .parte-act .next p {
+  color: #566a7f;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.bloco-financa .financa .elemt-4 {
+  display: flex;
+  gap: 80px;
+  margin-left: 20px;
+}
+.bloco-financa .financa .price h5 {
+  color: #697a8d;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.bloco-financa .financa .price p {
+  color: #566a7f;
+  font-weight: 100;
+  font-style: italic;
+}
+.bloco-financa .elemt-4 .santis h5 {
+  color: #697a8d;
+  font-size: 15px;
+  font-weight: 400;
+}
+.bloco-financa .financa .fut-avatar {
+  display: flex;
+  gap: 80px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.bloco-financa .financa .fut-avatar p {
+  background-color: #d3d3e4;
+  color: #696cff;
+  border-radius: 4px;
+  width: 96px;
+  height: 22px;
+  text-align: center;
+}
